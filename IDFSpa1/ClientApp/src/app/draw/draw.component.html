@@ -23,12 +23,15 @@
         <label for="amount" style="color: lightgreen">Amount</label>
         <br />
 
-        <span style="color: lightgreen">$</span>
+        <span class="transp">$</span>
         <input [(ngModel)]="amount"
                name="amount"
                type="number"
                step="0.01"
-               id="amount" required [ngModelOptions]="{standalone: true}">
+               id="amount"
+               required
+               idfAutofocus
+               [ngModelOptions]="{standalone: true}">
 
 
 

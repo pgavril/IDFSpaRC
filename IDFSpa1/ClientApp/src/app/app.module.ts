@@ -13,6 +13,7 @@ import { FormatAccountNumberPipe } from './format-account-number.pipe';
 import { UiModule } from './ui/ui.module';
 import { DrawComponent } from './draw/draw.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { AutofocusDirective } from './autofocus.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HeaderComponent } from './shared/header/header.component';
     AccountComponent,
     FormatAccountNumberPipe,
     DrawComponent,
-    HeaderComponent
+    HeaderComponent,
+    AutofocusDirective
   ],
   imports: [
     BrowserModule,
